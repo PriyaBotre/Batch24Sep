@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="8" passed="4" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-12T17:43:16 IST" name="Suite" finished-at="2023-02-12T17:43:36 IST" duration-ms="20430">
+  <suite started-at="2023-02-15T16:58:29 IST" name="Suite" finished-at="2023-02-15T16:58:43 IST" duration-ms="14074">
     <groups>
     </groups>
-    <test started-at="2023-02-12T17:43:16 IST" name="ChromeTest" finished-at="2023-02-12T17:43:30 IST" duration-ms="14581">
+    <test started-at="2023-02-15T16:58:29 IST" name="ChromeTest" finished-at="2023-02-15T16:58:39 IST" duration-ms="9682">
       <class name="FacebookProjectTests.TestNGVerifyLoginFunctionality">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@1817d444]" started-at="2023-02-12T17:43:16 IST" name="launchBrowser" finished-at="2023-02-12T17:43:18 IST" duration-ms="2609" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@61df66b6]" started-at="2023-02-15T16:58:29 IST" name="launchBrowser" finished-at="2023-02-15T16:58:31 IST" duration-ms="1609" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@1817d444]" started-at="2023-02-12T17:43:21 IST" name="createPOMObjects" finished-at="2023-02-12T17:43:21 IST" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@61df66b6]" started-at="2023-02-15T16:58:32 IST" name="createPOMObjects" finished-at="2023-02-15T16:58:32 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPOMObjects -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@1817d444]" started-at="2023-02-12T17:43:21 IST" name="beforeMethod" finished-at="2023-02-12T17:43:22 IST" duration-ms="1091" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@61df66b6]" started-at="2023-02-15T16:58:32 IST" name="beforeMethod" finished-at="2023-02-15T16:58:33 IST" duration-ms="908" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@1817d444]" started-at="2023-02-12T17:43:22 IST" name="test1" finished-at="2023-02-12T17:43:22 IST" duration-ms="26" status="FAIL">
+        <test-method signature="test1()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@61df66b6]" started-at="2023-02-15T16:58:33 IST" name="test1" finished-at="2023-02-15T16:58:33 IST" duration-ms="19" status="FAIL">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[org/apache/logging/log4j/LogManager]]>
@@ -73,24 +73,24 @@ at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@1817d444]" started-at="2023-02-12T17:43:22 IST" name="goBackToMainPage" finished-at="2023-02-12T17:43:22 IST" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@61df66b6]" started-at="2023-02-15T16:58:33 IST" name="goBackToMainPage" finished-at="2023-02-15T16:58:33 IST" duration-ms="173" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1 status=FAILURE method=TestNGVerifyLoginFunctionality.test1()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@1817d444] output={null}]]]>
+                <![CDATA[[TestResult name=test1 status=FAILURE method=TestNGVerifyLoginFunctionality.test1()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@61df66b6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goBackToMainPage -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@1817d444]" started-at="2023-02-12T17:43:22 IST" name="closeTheBrowser" finished-at="2023-02-12T17:43:24 IST" duration-ms="1661" status="PASS">
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@61df66b6]" started-at="2023-02-15T16:58:33 IST" name="closeTheBrowser" finished-at="2023-02-15T16:58:33 IST" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
       </class> <!-- FacebookProjectTests.TestNGVerifyLoginFunctionality -->
       <class name="FacebookProjectTests.TestNGVerifySignUpForm">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46]" started-at="2023-02-12T17:43:18 IST" name="launchBrowser" finished-at="2023-02-12T17:43:21 IST" duration-ms="2452" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f]" started-at="2023-02-15T16:58:31 IST" name="launchBrowser" finished-at="2023-02-15T16:58:32 IST" duration-ms="881" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,34 +101,34 @@ at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46]" started-at="2023-02-12T17:43:24 IST" name="createPOMObject" finished-at="2023-02-12T17:43:24 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f]" started-at="2023-02-15T16:58:33 IST" name="createPOMObject" finished-at="2023-02-15T16:58:33 IST" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPOMObject -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46]" started-at="2023-02-12T17:43:24 IST" name="beforeMethod" finished-at="2023-02-12T17:43:25 IST" duration-ms="1160" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f]" started-at="2023-02-15T16:58:33 IST" name="beforeMethod" finished-at="2023-02-15T16:58:34 IST" duration-ms="1175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyPrivacyPolicyLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46]" started-at="2023-02-12T17:43:25 IST" name="verifyPrivacyPolicyLinkOnSignUpFORM" finished-at="2023-02-12T17:43:27 IST" duration-ms="2328" status="PASS">
+        <test-method signature="verifyPrivacyPolicyLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f]" started-at="2023-02-15T16:58:34 IST" name="verifyPrivacyPolicyLinkOnSignUpFORM" finished-at="2023-02-15T16:58:36 IST" duration-ms="1713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPrivacyPolicyLinkOnSignUpFORM -->
-        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46]" started-at="2023-02-12T17:43:27 IST" name="goBackToMainPage" finished-at="2023-02-12T17:43:27 IST" duration-ms="53" status="PASS">
+        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f]" started-at="2023-02-15T16:58:36 IST" name="goBackToMainPage" finished-at="2023-02-15T16:58:36 IST" duration-ms="47" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPrivacyPolicyLinkOnSignUpFORM status=SUCCESS method=TestNGVerifySignUpForm.verifyPrivacyPolicyLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPrivacyPolicyLinkOnSignUpFORM status=SUCCESS method=TestNGVerifySignUpForm.verifyPrivacyPolicyLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goBackToMainPage -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46]" started-at="2023-02-12T17:43:27 IST" name="beforeMethod" finished-at="2023-02-12T17:43:28 IST" duration-ms="587" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f]" started-at="2023-02-15T16:58:36 IST" name="beforeMethod" finished-at="2023-02-15T16:58:37 IST" duration-ms="719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifySignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46]" started-at="2023-02-12T17:43:28 IST" name="verifySignUpFORM" finished-at="2023-02-12T17:43:28 IST" duration-ms="8" status="FAIL">
+        <test-method signature="verifySignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f]" started-at="2023-02-15T16:58:37 IST" name="verifySignUpFORM" finished-at="2023-02-15T16:58:37 IST" duration-ms="9" status="FAIL">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[Could not initialize class org.apache.poi.util.IOUtils]]>
@@ -169,45 +169,45 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpFORM -->
-        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46]" started-at="2023-02-12T17:43:28 IST" name="goBackToMainPage" finished-at="2023-02-12T17:43:28 IST" duration-ms="321" status="PASS">
+        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f]" started-at="2023-02-15T16:58:37 IST" name="goBackToMainPage" finished-at="2023-02-15T16:58:37 IST" duration-ms="300" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySignUpFORM status=FAILURE method=TestNGVerifySignUpForm.verifySignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46] output={null}]]]>
+                <![CDATA[[TestResult name=verifySignUpFORM status=FAILURE method=TestNGVerifySignUpForm.verifySignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goBackToMainPage -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46]" started-at="2023-02-12T17:43:28 IST" name="beforeMethod" finished-at="2023-02-12T17:43:29 IST" duration-ms="712" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f]" started-at="2023-02-15T16:58:37 IST" name="beforeMethod" finished-at="2023-02-15T16:58:38 IST" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTermsLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46]" started-at="2023-02-12T17:43:29 IST" name="verifyTermsLinkOnSignUpFORM" finished-at="2023-02-12T17:43:30 IST" duration-ms="813" status="PASS">
+        <test-method signature="verifyTermsLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f]" started-at="2023-02-15T16:58:38 IST" name="verifyTermsLinkOnSignUpFORM" finished-at="2023-02-15T16:58:39 IST" duration-ms="703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTermsLinkOnSignUpFORM -->
-        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46]" started-at="2023-02-12T17:43:30 IST" name="goBackToMainPage" finished-at="2023-02-12T17:43:30 IST" duration-ms="27" status="PASS">
+        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f]" started-at="2023-02-15T16:58:39 IST" name="goBackToMainPage" finished-at="2023-02-15T16:58:39 IST" duration-ms="66" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTermsLinkOnSignUpFORM status=SUCCESS method=TestNGVerifySignUpForm.verifyTermsLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46] output={null}]]]>
+                <![CDATA[[TestResult name=verifyTermsLinkOnSignUpFORM status=SUCCESS method=TestNGVerifySignUpForm.verifyTermsLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goBackToMainPage -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@41e36e46]" started-at="2023-02-12T17:43:30 IST" name="closeTheBrowser" finished-at="2023-02-12T17:43:30 IST" duration-ms="318" status="PASS">
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@20deea7f]" started-at="2023-02-15T16:58:39 IST" name="closeTheBrowser" finished-at="2023-02-15T16:58:39 IST" duration-ms="337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
       </class> <!-- FacebookProjectTests.TestNGVerifySignUpForm -->
     </test> <!-- ChromeTest -->
-    <test started-at="2023-02-12T17:43:16 IST" name="EdgeTest" finished-at="2023-02-12T17:43:36 IST" duration-ms="20430">
+    <test started-at="2023-02-15T16:58:29 IST" name="EdgeTest" finished-at="2023-02-15T16:58:43 IST" duration-ms="14074">
       <class name="FacebookProjectTests.TestNGVerifyLoginFunctionality">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@7fa98a66]" started-at="2023-02-12T17:43:16 IST" name="launchBrowser" finished-at="2023-02-12T17:43:20 IST" duration-ms="4120" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@294425a7]" started-at="2023-02-15T16:58:29 IST" name="launchBrowser" finished-at="2023-02-15T16:58:31 IST" duration-ms="1456" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -218,15 +218,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@7fa98a66]" started-at="2023-02-12T17:43:24 IST" name="createPOMObjects" finished-at="2023-02-12T17:43:24 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@294425a7]" started-at="2023-02-15T16:58:34 IST" name="createPOMObjects" finished-at="2023-02-15T16:58:34 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPOMObjects -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@7fa98a66]" started-at="2023-02-12T17:43:24 IST" name="beforeMethod" finished-at="2023-02-12T17:43:26 IST" duration-ms="1884" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@294425a7]" started-at="2023-02-15T16:58:34 IST" name="beforeMethod" finished-at="2023-02-15T16:58:35 IST" duration-ms="1685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test1()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@7fa98a66]" started-at="2023-02-12T17:43:26 IST" name="test1" finished-at="2023-02-12T17:43:26 IST" duration-ms="16" status="FAIL">
+        <test-method signature="test1()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@294425a7]" started-at="2023-02-15T16:58:35 IST" name="test1" finished-at="2023-02-15T16:58:35 IST" duration-ms="5" status="FAIL">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[Could not initialize class org.apache.poi.util.IOUtils]]>
@@ -267,24 +267,24 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@7fa98a66]" started-at="2023-02-12T17:43:26 IST" name="goBackToMainPage" finished-at="2023-02-12T17:43:26 IST" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@294425a7]" started-at="2023-02-15T16:58:35 IST" name="goBackToMainPage" finished-at="2023-02-15T16:58:36 IST" duration-ms="282" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test1 status=FAILURE method=TestNGVerifyLoginFunctionality.test1()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@7fa98a66] output={null}]]]>
+                <![CDATA[[TestResult name=test1 status=FAILURE method=TestNGVerifyLoginFunctionality.test1()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@294425a7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goBackToMainPage -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@7fa98a66]" started-at="2023-02-12T17:43:26 IST" name="closeTheBrowser" finished-at="2023-02-12T17:43:28 IST" duration-ms="1944" status="PASS">
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:FacebookProjectTests.TestNGVerifyLoginFunctionality@294425a7]" started-at="2023-02-15T16:58:36 IST" name="closeTheBrowser" finished-at="2023-02-15T16:58:36 IST" duration-ms="696" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
       </class> <!-- FacebookProjectTests.TestNGVerifyLoginFunctionality -->
       <class name="FacebookProjectTests.TestNGVerifySignUpForm">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83]" started-at="2023-02-12T17:43:20 IST" name="launchBrowser" finished-at="2023-02-12T17:43:24 IST" duration-ms="3970" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38]" started-at="2023-02-15T16:58:31 IST" name="launchBrowser" finished-at="2023-02-15T16:58:34 IST" duration-ms="2911" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -295,34 +295,34 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83]" started-at="2023-02-12T17:43:28 IST" name="createPOMObject" finished-at="2023-02-12T17:43:28 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38]" started-at="2023-02-15T16:58:36 IST" name="createPOMObject" finished-at="2023-02-15T16:58:36 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPOMObject -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83]" started-at="2023-02-12T17:43:28 IST" name="beforeMethod" finished-at="2023-02-12T17:43:31 IST" duration-ms="2945" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38]" started-at="2023-02-15T16:58:36 IST" name="beforeMethod" finished-at="2023-02-15T16:58:38 IST" duration-ms="1720" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyPrivacyPolicyLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83]" started-at="2023-02-12T17:43:31 IST" name="verifyPrivacyPolicyLinkOnSignUpFORM" finished-at="2023-02-12T17:43:33 IST" duration-ms="1853" status="PASS">
+        <test-method signature="verifyPrivacyPolicyLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38]" started-at="2023-02-15T16:58:38 IST" name="verifyPrivacyPolicyLinkOnSignUpFORM" finished-at="2023-02-15T16:58:40 IST" duration-ms="1952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPrivacyPolicyLinkOnSignUpFORM -->
-        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83]" started-at="2023-02-12T17:43:33 IST" name="goBackToMainPage" finished-at="2023-02-12T17:43:33 IST" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38]" started-at="2023-02-15T16:58:40 IST" name="goBackToMainPage" finished-at="2023-02-15T16:58:40 IST" duration-ms="38" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPrivacyPolicyLinkOnSignUpFORM status=SUCCESS method=TestNGVerifySignUpForm.verifyPrivacyPolicyLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83] output={null}]]]>
+                <![CDATA[[TestResult name=verifyPrivacyPolicyLinkOnSignUpFORM status=SUCCESS method=TestNGVerifySignUpForm.verifyPrivacyPolicyLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goBackToMainPage -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83]" started-at="2023-02-12T17:43:33 IST" name="beforeMethod" finished-at="2023-02-12T17:43:34 IST" duration-ms="1097" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38]" started-at="2023-02-15T16:58:40 IST" name="beforeMethod" finished-at="2023-02-15T16:58:41 IST" duration-ms="1083" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifySignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83]" started-at="2023-02-12T17:43:34 IST" name="verifySignUpFORM" finished-at="2023-02-12T17:43:34 IST" duration-ms="7" status="FAIL">
+        <test-method signature="verifySignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38]" started-at="2023-02-15T16:58:41 IST" name="verifySignUpFORM" finished-at="2023-02-15T16:58:41 IST" duration-ms="4" status="FAIL">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[Could not initialize class org.apache.poi.util.IOUtils]]>
@@ -363,37 +363,37 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpFORM -->
-        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83]" started-at="2023-02-12T17:43:34 IST" name="goBackToMainPage" finished-at="2023-02-12T17:43:34 IST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38]" started-at="2023-02-15T16:58:41 IST" name="goBackToMainPage" finished-at="2023-02-15T16:58:41 IST" duration-ms="174" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySignUpFORM status=FAILURE method=TestNGVerifySignUpForm.verifySignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83] output={null}]]]>
+                <![CDATA[[TestResult name=verifySignUpFORM status=FAILURE method=TestNGVerifySignUpForm.verifySignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goBackToMainPage -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83]" started-at="2023-02-12T17:43:34 IST" name="beforeMethod" finished-at="2023-02-12T17:43:35 IST" duration-ms="996" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38]" started-at="2023-02-15T16:58:41 IST" name="beforeMethod" finished-at="2023-02-15T16:58:42 IST" duration-ms="1047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyTermsLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83]" started-at="2023-02-12T17:43:35 IST" name="verifyTermsLinkOnSignUpFORM" finished-at="2023-02-12T17:43:36 IST" duration-ms="547" status="PASS">
+        <test-method signature="verifyTermsLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38]" started-at="2023-02-15T16:58:42 IST" name="verifyTermsLinkOnSignUpFORM" finished-at="2023-02-15T16:58:43 IST" duration-ms="578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTermsLinkOnSignUpFORM -->
-        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83]" started-at="2023-02-12T17:43:36 IST" name="goBackToMainPage" finished-at="2023-02-12T17:43:36 IST" duration-ms="28" status="PASS">
+        <test-method is-config="true" signature="goBackToMainPage(org.testng.ITestResult)[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38]" started-at="2023-02-15T16:58:43 IST" name="goBackToMainPage" finished-at="2023-02-15T16:58:43 IST" duration-ms="40" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTermsLinkOnSignUpFORM status=SUCCESS method=TestNGVerifySignUpForm.verifyTermsLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83] output={null}]]]>
+                <![CDATA[[TestResult name=verifyTermsLinkOnSignUpFORM status=SUCCESS method=TestNGVerifySignUpForm.verifyTermsLinkOnSignUpFORM()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goBackToMainPage -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@6dc17b83]" started-at="2023-02-12T17:43:36 IST" name="closeTheBrowser" finished-at="2023-02-12T17:43:36 IST" duration-ms="486" status="PASS">
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:FacebookProjectTests.TestNGVerifySignUpForm@12468a38]" started-at="2023-02-15T16:58:43 IST" name="closeTheBrowser" finished-at="2023-02-15T16:58:43 IST" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->

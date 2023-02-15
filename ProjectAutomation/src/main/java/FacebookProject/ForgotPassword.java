@@ -43,6 +43,7 @@ public class ForgotPassword {
 	}
 	
 	public void clickOnSearch() {
+		searchButton.submit();
 		searchButton.click();
 	}
 
