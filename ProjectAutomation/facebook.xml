@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+  <test name="ChromeTest">
+  <parameter name="browser01" value="Chrome"/>
+    <classes>
+      <class name="FacebookProjectTests.TestNGVerifyLoginFunctionality"/>
+      <class name="FacebookProjectTests.TestNGVerifySignUpForm"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="EdgeTest">
+  <parameter name="browser01" value="Edge"/>
+    <classes>
+      <class name="FacebookProjectTests.TestNGVerifyLoginFunctionality"/>
+      <class name="FacebookProjectTests.TestNGVerifySignUpForm"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
